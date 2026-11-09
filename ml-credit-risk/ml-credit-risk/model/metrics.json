@@ -1,0 +1,120 @@
+{
+  "Logistic Regression": {
+    "Accuracy": 0.725,
+    "AUC": 0.809404761904762,
+    "Precision": 0.5280898876404494,
+    "Recall": 0.7833333333333333,
+    "F1": 0.6308724832214765,
+    "MCC": 0.4456869294541599,
+    "confusion_matrix": [
+      [
+        98,
+        42
+      ],
+      [
+        13,
+        47
+      ]
+    ],
+    "best_params": {
+      "C": 0.1
+    },
+    "cv_f1": 0.6004045642064222,
+    "file": "logistic_regression.joblib"
+  },
+  "Decision Tree": {
+    "Accuracy": 0.57,
+    "AUC": 0.5989880952380953,
+    "Precision": 0.37735849056603776,
+    "Recall": 0.6666666666666666,
+    "F1": 0.4819277108433735,
+    "MCC": 0.17926163185860888,
+    "confusion_matrix": [
+      [
+        74,
+        66
+      ],
+      [
+        20,
+        40
+      ]
+    ],
+    "best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 1
+    },
+    "cv_f1": 0.5636490977621502,
+    "file": "decision_tree.joblib"
+  },
+  "KNN": {
+    "Accuracy": 0.725,
+    "AUC": 0.7329761904761906,
+    "Precision": 0.5675675675675675,
+    "Recall": 0.35,
+    "F1": 0.4329896907216495,
+    "MCC": 0.27818319000586306,
+    "confusion_matrix": [
+      [
+        124,
+        16
+      ],
+      [
+        39,
+        21
+      ]
+    ],
+    "best_params": {
+      "n_neighbors": 5,
+      "weights": "distance"
+    },
+    "cv_f1": 0.43418030605245217,
+    "file": "knn.joblib"
+  },
+  "Naive Bayes": {
+    "Accuracy": 0.695,
+    "AUC": 0.7428571428571429,
+    "Precision": 0.4936708860759494,
+    "Recall": 0.65,
+    "F1": 0.5611510791366906,
+    "MCC": 0.3414880830429825,
+    "confusion_matrix": [
+      [
+        100,
+        40
+      ],
+      [
+        21,
+        39
+      ]
+    ],
+    "best_params": {
+      "var_smoothing": 0.001
+    },
+    "cv_f1": 0.5559320700466486,
+    "file": "naive_bayes.joblib"
+  },
+  "Support Vector Machine": {
+    "Accuracy": 0.785,
+    "AUC": 0.8201190476190476,
+    "Precision": 0.6888888888888889,
+    "Recall": 0.5166666666666667,
+    "F1": 0.5904761904761905,
+    "MCC": 0.457252717640612,
+    "confusion_matrix": [
+      [
+        126,
+        14
+      ],
+      [
+        29,
+        31
+      ]
+    ],
+    "best_params": {
+      "C": 1,
+      "gamma": 0.01
+    },
+    "cv_f1": 0.5443490530084875,
+    "file": "svm.joblib"
+  }
+}

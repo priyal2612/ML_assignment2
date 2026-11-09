@@ -1,0 +1,119 @@
+{
+  "target": "credit_risk",
+  "positive_label": "bad credit risk",
+  "numeric": [
+    "duration_months",
+    "credit_amount",
+    "installment_rate_pct",
+    "residence_since",
+    "age_years",
+    "existing_credits",
+    "num_dependents"
+  ],
+  "categorical": {
+    "checking_account": [
+      "0-200 DM",
+      "< 0 DM",
+      ">= 200 DM",
+      "no checking account"
+    ],
+    "credit_history": [
+      "all paid at this bank",
+      "critical account",
+      "existing paid duly",
+      "no credits / all paid",
+      "past delays"
+    ],
+    "purpose": [
+      "business",
+      "car (new)",
+      "car (used)",
+      "domestic appliances",
+      "education",
+      "furniture/equipment",
+      "others",
+      "radio/television",
+      "repairs",
+      "retraining",
+      "vacation"
+    ],
+    "savings_account": [
+      "100-500 DM",
+      "500-1000 DM",
+      "< 100 DM",
+      ">= 1000 DM",
+      "unknown / none"
+    ],
+    "employment_since": [
+      "1-4 years",
+      "4-7 years",
+      "< 1 year",
+      ">= 7 years",
+      "unemployed"
+    ],
+    "personal_status_sex": [
+      "female: divorced/separated/married",
+      "female: single",
+      "male: divorced/separated",
+      "male: married/widowed",
+      "male: single"
+    ],
+    "other_debtors": [
+      "co-applicant",
+      "guarantor",
+      "none"
+    ],
+    "property": [
+      "car or other",
+      "real estate",
+      "savings agreement / life insurance",
+      "unknown / none"
+    ],
+    "other_installment_plans": [
+      "bank",
+      "none",
+      "stores"
+    ],
+    "housing": [
+      "for free",
+      "own",
+      "rent"
+    ],
+    "job": [
+      "management / highly qualified",
+      "skilled employee",
+      "unemployed / unskilled non-resident",
+      "unskilled resident"
+    ],
+    "telephone": [
+      "none",
+      "yes"
+    ],
+    "foreign_worker": [
+      "no",
+      "yes"
+    ]
+  },
+  "feature_order": [
+    "checking_account",
+    "duration_months",
+    "credit_history",
+    "purpose",
+    "credit_amount",
+    "savings_account",
+    "employment_since",
+    "installment_rate_pct",
+    "personal_status_sex",
+    "other_debtors",
+    "residence_since",
+    "property",
+    "age_years",
+    "other_installment_plans",
+    "housing",
+    "existing_credits",
+    "job",
+    "num_dependents",
+    "telephone",
+    "foreign_worker"
+  ]
+}
